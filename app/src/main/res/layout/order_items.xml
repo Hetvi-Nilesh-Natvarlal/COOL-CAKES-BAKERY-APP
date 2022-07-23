@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardElevation="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:padding="15dp">
+
+
+        <ImageView
+            android:id="@+id/porimg"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="115dp" />
+
+        <TextView
+            android:id="@+id/porpname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/porimg"
+            android:text="Nothing To Display"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="italic"></TextView>
+
+        <TextView
+            android:id="@+id/porflavours"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:layout_below="@+id/porpname"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textSize="10dp"></TextView>
+
+
+        <TextView
+            android:id="@+id/porprice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/porflavours"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textSize="10dp"></TextView>
+
+        <TextView
+            android:id="@+id/pordevprice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_below="@+id/porprice"
+            android:textColor="@color/black"
+            android:textSize="10dp"></TextView>
+
+        <TextView
+            android:id="@+id/porquantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pordevprice"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textSize="10dp"></TextView>
+
+        <TextView
+            android:id="@+id/pordescenter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/porquantity"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:textSize="10dp"></TextView>
+
+        <TextView
+            android:id="@+id/porwordings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pordescenter"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            android:textSize="10dp"></TextView>
+
+        <TextView
+            android:id="@+id/porpor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/porwordings"
+            android:text="Click here to see shipment details"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="10dp"
+            android:textStyle="italic"></TextView>
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

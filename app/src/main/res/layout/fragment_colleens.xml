@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDCFC5"
+    android:padding="30dp"
+    tools:context=".ColleensFragment">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="654dp"
+        android:background="#EDCFC5">
+
+        <ImageView
+            android:id="@+id/coll"
+            android:layout_width="match_parent"
+            android:layout_height="186dp"
+            android:layout_alignEnd="@id/logoutt"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="-2dp"
+            android:layout_marginEnd="-16dp"
+            android:src="@drawable/coolcakesbakerylogo" />
+
+        <ImageView
+            android:id="@+id/whatsapp"
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/coll"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="48dp"
+            android:src="@drawable/download" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/coll"
+            android:layout_marginTop="48dp"
+            android:layout_toEndOf="@+id/gmail"
+            android:text=" WhatsApp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:id="@+id/gmail"
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/whatsapp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="48dp"
+            android:src="@drawable/whatsapp" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/whatsapp"
+            android:layout_marginTop="48dp"
+            android:layout_toEndOf="@+id/gmail"
+            android:text=" coolcakesbakery@gmail.com"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:id="@+id/insta"
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/gmail"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="48dp"
+            android:src="@drawable/insta" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gmail"
+            android:layout_marginTop="48dp"
+            android:layout_toEndOf="@+id/insta"
+            android:text=" cool_cakes_bakery_2022"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/map"
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/insta"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="48dp"
+            android:src="@drawable/map" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/insta"
+            android:layout_marginTop="48dp"
+            android:layout_toEndOf="@+id/map"
+            android:text=" RR Nagar , Bangalore 560072
+"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/logoutt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/map"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="-1dp"
+            android:layout_marginTop="55dp"
+            android:fontFamily="@font/aclonica"
+            android:text="LOG OUT"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</FrameLayout>

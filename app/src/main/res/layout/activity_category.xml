@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/side_nav_bar"
+    tools:context=".CategoryActivity">
+
+
+    <ImageView
+        android:id="@+id/img_birthday"
+        android:layout_width="186dp"
+        android:layout_height="159dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/button_birthday"
+        app:layout_constraintEnd_toStartOf="@+id/img_wedding"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/birthday_cakes" />
+
+
+    <Button
+        android:id="@+id/button_birthday"
+        android:layout_width="177dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/birthday_cakes"
+        android:text="Birthday Cakes"
+        app:backgroundTint="#B565D1"
+        app:layout_constraintBottom_toTopOf="@+id/img_appetizers"
+        app:layout_constraintEnd_toStartOf="@+id/button_wedding"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_birthday" />
+
+
+    <ImageView
+        android:id="@+id/img_wedding"
+        android:layout_width="186dp"
+        android:layout_height="159dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/button_wedding"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintStart_toEndOf="@+id/button_birthday"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.027"
+        app:srcCompat="@drawable/wedding_cakes" />
+
+    <Button
+        android:id="@+id/button_wedding"
+        android:layout_width="198dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="32dp"
+        android:text="Wedding Cakes"
+        app:backgroundTint="#B565D1"
+        app:layout_constraintBottom_toTopOf="@+id/img_cupcakes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/img_birthday" />
+
+    <ImageView
+        android:id="@+id/img_appetizers"
+        android:layout_width="186dp"
+        android:layout_height="159dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/button_appetizers"
+        app:layout_constraintEnd_toStartOf="@+id/img_cupcakes"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/appetizers" />
+
+    <Button
+        android:id="@+id/button_appetizers"
+        android:layout_width="177dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Appetizers"
+        app:backgroundTint="#B565D1"
+        app:layout_constraintBottom_toTopOf="@+id/img_pizza"
+        app:layout_constraintEnd_toStartOf="@+id/button_cupcakes"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_cupcakes"
+        android:layout_width="186dp"
+        android:layout_height="159dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/button_cupcakes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/cupcakes" />
+
+    <Button
+        android:id="@+id/button_cupcakes"
+        android:layout_width="177dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Cup Cakes"
+        app:backgroundTint="#B565D1"
+        app:layout_constraintBottom_toTopOf="@+id/img_sandwiches"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_pizza"
+        android:layout_width="186dp"
+        android:layout_height="159dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/button_pizza"
+        app:layout_constraintEnd_toStartOf="@+id/img_sandwiches"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/pizza" />
+
+    <Button
+        android:id="@+id/button_pizza"
+        android:layout_width="177dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Pizza"
+        app:backgroundTint="#B565D1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button_sanwiches"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_sandwiches"
+        android:layout_width="193dp"
+        android:layout_height="155dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/button_sanwiches"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/sandwiches" />
+
+    <Button
+        android:id="@+id/button_sanwiches"
+        android:layout_width="177dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Sand Wiches"
+        app:backgroundTint="#B565D1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_pizza" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

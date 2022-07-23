@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Product_Details_Activity">
+    <TextView
+        android:id="@+id/invisible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/pro_img_det"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:scaleType="centerCrop" />
+
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="277dp"
+        android:layout_height="170dp"
+
+        android:layout_below="@id/pro_img_det"
+        android:layout_alignRight="@+id/linear2"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="123dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/pro_price_det"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text=" Product Price"
+            android:textAlignment="viewStart"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/pro_name_det"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pro_price_det"
+            android:gravity="left"
+            android:text=" Product Name"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/pro_flavours_det"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pro_name_det"
+            android:gravity="left"
+            android:text="Product Flavours"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/pro_Quantity_det"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pro_flavours_det"
+            android:gravity="left"
+            android:text=" Product Quantity"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/pro_weight_det"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pro_Quantity_det"
+            android:gravity="left"
+            android:text=" Product Weight"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/pro_devprice_det"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Delivery Price"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/pro_desc_det"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:gravity="left"
+            android:text=" Product desc"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear2"
+        android:layout_width="130dp"
+        android:layout_height="170dp"
+        android:layout_below="@id/pro_img_det"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="Rs . "
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name : "
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Flavours : "
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quantity : "
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="Weight : "
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delivery Price : "
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description : "
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/pro_quantity"
+        android:layout_width="277dp"
+        android:layout_height="39dp"
+        android:layout_below="@+id/linear2"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="Enter the quantity you want to purchase "
+        android:textAlignment="viewEnd"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/enter_quantity"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/linear2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="1dp"
+        android:layout_toEndOf="@+id/pro_quantity"
+        android:hint="Quantity"
+        android:inputType="number"></EditText>
+
+    <EditText
+        android:id="@+id/enter_words"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/enter_quantity"
+        android:layout_marginTop="24dp"
+        android:hint="Enter wordings you want to include in your cake"
+        android:inputType="text"
+        android:minHeight="48dp"></EditText>
+
+    <EditText
+        android:id="@+id/enter_desc"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_below="@+id/enter_words"
+        android:layout_marginTop="-1dp"
+        android:hint="A bit of description about your cake .. if any!!"
+        android:inputType="text"></EditText>
+
+    <Button
+        android:id="@+id/add_to_cart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Add To Cart"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:backgroundTint="#6B7DD3" />
+
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_baseline_home"
+        android:title="Home">
+    </item>
+
+    <item
+        android:id="@+id/nav_category"
+        android:icon="@drawable/ic_baseline_category"
+        android:title="Category">
+    </item>
+
+    <item
+        android:id="@+id/navi_cart"
+        android:icon="@drawable/ic_baseline_order"
+        android:title="My Cart">
+    </item>
+
+    <item
+        android:id="@+id/navi_order"
+        android:icon="@drawable/ic_baseline_local_cafe_24"
+        android:title="My Orders">
+    </item>
+
+    <item
+        android:icon="@drawable/ic_baseline_account"
+        android:id="@+id/nav_account"
+        android:title="My Account">
+    </item>
+</menu>

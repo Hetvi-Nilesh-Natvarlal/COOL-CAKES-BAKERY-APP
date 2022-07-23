@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CartActivity">
+
+    <RelativeLayout
+        android:id="@+id/rel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:id="@+id/totprice"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Total Price"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:backgroundTint="@color/design_default_color_primary_dark"></TextView>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nothing To Display"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:layout_below="@+id/rel"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/cartrec"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rel"/>
+
+    <Button
+        android:id="@+id/Addmore_order"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Add More Items"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+       android:layout_above="@+id/confirm_order"/>
+
+    <Button
+        android:id="@+id/confirm_order"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Proceed"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_alignParentBottom="true"/>
+
+
+</RelativeLayout>

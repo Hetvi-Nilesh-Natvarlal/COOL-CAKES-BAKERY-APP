@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfirmOrderActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:text="Please Enter you  required details"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/shipment_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/shipment_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView4"
+        android:layout_marginBottom="7dp"
+        android:ems="10"
+        android:hint="Your Name"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/shipment_phonenumber"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/shipment_phonenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/shipment_name"
+        android:ems="10"
+        android:hint="Your Phone No"
+        android:inputType="phone"
+        android:minHeight="48dp" />
+
+
+    <EditText
+        android:id="@+id/shipment_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/shipment_phonenumber"
+        android:layout_marginBottom="7dp"
+        android:ems="10"
+        android:hint="Name of your state "
+        android:minHeight="48dp"
+        android:text="Karnataka" />
+
+    <EditText
+        android:id="@+id/shipment_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/shipment_state"
+        android:layout_marginBottom="7dp"
+        android:ems="10"
+        android:hint="Name of your City "
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/shipment_locality"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/shipment_city"
+        android:layout_marginBottom="7dp"
+        android:hint="Locality Name "
+        android:inputType="text"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/shipment_pincode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/shipment_locality"
+        android:layout_marginBottom="7dp"
+        android:ems="10"
+        android:hint="Pincode "
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <TextView
+    android:id="@+id/editTextDate"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:ems="10"
+    android:hint="Please Click Here To Select The Delivery date"
+    android:layout_below="@+id/shipment_pincode"/>
+
+
+    <Button
+        android:id="@+id/confirm_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_below="@id/editTextDate"
+        android:text="Proceed Order"
+        android:textStyle="bold"
+        android:textColor="@color/black"></Button>
+
+
+</RelativeLayout>

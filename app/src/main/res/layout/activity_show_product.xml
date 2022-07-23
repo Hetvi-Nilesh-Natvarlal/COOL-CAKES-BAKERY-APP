@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".Admin.ShowProductActivity">
+
+
+ <TextView
+     android:id="@+id/idid"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="Products"
+     android:textAlignment="center"
+     android:textStyle="bold"
+     android:textColor="@color/black"
+     android:textSize="30dp"/>
+
+
+ <TextView
+   android:layout_below="@+id/idid"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:text="Nothing To Display"
+     android:textAlignment="center"
+     android:textSize="20dp"/>
+
+
+ <androidx.recyclerview.widget.RecyclerView
+     android:layout_below="@+id/idid"
+     android:layout_above="@+id/addmorepro"
+     android:id="@+id/ashowproductview"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"/>
+
+
+ <Button
+     android:id="@+id/addmorepro"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_alignParentBottom="true"
+     android:layout_marginBottom="31dp"
+     android:text="Add More Products"
+     android:textSize="24sp"
+     app:backgroundTint="#9199E8"></Button>
+
+</RelativeLayout>

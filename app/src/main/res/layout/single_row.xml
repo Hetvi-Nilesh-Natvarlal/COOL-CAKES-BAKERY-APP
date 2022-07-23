@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    app:elevation="15dp"
+    app:cardElevation="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="314dp"
+            android:src="@drawable/coolcakesbakerylogo" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_below="@+id/img"
+            android:layout_marginTop="5dp"
+            android:text="Demo Name"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_below="@+id/name"
+            android:layout_marginTop="5dp"
+            android:text="Demo Price"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/price"
+            android:layout_marginTop="2dp"
+            android:text="Demo Desc"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+

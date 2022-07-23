@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#EDCFC5"
+    android:padding="15dp"
+    tools:context=".ShipmentInfoActivity">
+
+    <RelativeLayout
+        android:layout_width="379dp"
+        android:layout_height="455dp"
+        android:background="#EDCFC5">
+
+        <TextView
+            android:id="@+id/newtry"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:text="Shipment Details"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/newname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/newtry"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="23dp"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/newstate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/newname"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/newcity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/newstate"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="18dp"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/newlocality"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/newcity"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/newpincode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/newlocality"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="132dp"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/newdelstate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/newpincode"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="12dp"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/neworstate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/newdelstate"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/newtotprice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/neworstate"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="45dp"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+    </RelativeLayout>
+
+</RelativeLayout>

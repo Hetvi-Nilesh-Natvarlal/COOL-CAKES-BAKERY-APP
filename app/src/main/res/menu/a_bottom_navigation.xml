@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/a_add"
+        android:icon="@drawable/ic_baseline_add"
+        android:title="Add">
+    </item>
+
+    <item
+        android:id="@+id/a_dispro"
+        android:icon="@drawable/ic_baseline_home"
+        android:title="Products">
+    </item>
+
+    <item
+        android:id="@+id/a_disor"
+        android:icon="@drawable/ic_baseline_local_cafe_24"
+        android:title="Display Order">
+    </item>
+
+    <item
+        android:id="@+id/a_disortoday"
+        android:icon="@drawable/ic_baseline_order"
+        android:title="Today's Order">
+    </item>
+
+    <item
+        android:id="@+id/a_disdeltoday"
+        android:icon="@drawable/ic_baseline_today_delivery"
+        android:title="Today's Delivery">
+    </item>
+
+</menu>

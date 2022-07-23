@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="6dp"
+    android:scrollbars="horizontal|vertical"
+    tools:context=".Admin.AdminActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_navigation_admin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:layout_above="@+id/bottom_navigation_admin">
+
+
+            <ImageView
+                android:id="@+id/insertimg"
+                android:layout_width="match_parent"
+                android:layout_height="136dp"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/ic_baseline_add"
+                android:visibility="visible" />
+
+            <ProgressBar
+                android:id="@+id/progressbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <EditText
+                android:id="@+id/a_pname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/insertimg"
+                android:hint="Enter Name of the product here"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/a_pid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/a_pname"
+                android:hint="Enter product id here"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/a_cat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/a_pid"
+                android:hint="Enter the Category of the product here"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/a_catid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/a_cat"
+                android:hint="Enter Category id here"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/a_flavour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/a_catid"
+                android:hint="Enter The Flavour of the product"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/a_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/a_flavour"
+                android:hint="Enter Description of the product here"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/a_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/a_desc"
+                android:hint="Enter Price of the product here"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/a_devprice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/a_price"
+                android:hint="Enter Delivery Price for the product here"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/a_quantity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/a_devprice"
+                android:hint="Enter Quantity of the product in number"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/a_weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/a_quantity"
+        android:hint="Enter Weight of the product here in kg"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/a_ok"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/a_weight"
+                android:text="Confirm"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation_admin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/a_bottom_navigation"
+        android:background="?android:attr/windowBackground">
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+</RelativeLayout>

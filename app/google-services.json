@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "188562456562",
+    "firebase_url": "https://colleens-kitchen-bakery-app-default-rtdb.firebaseio.com",
+    "project_id": "colleens-kitchen-bakery-app",
+    "storage_bucket": "colleens-kitchen-bakery-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:188562456562:android:7fde0d8d6a17f9a72c756b",
+        "android_client_info": {
+          "package_name": "com.example.coleenskitchenbakeryapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "188562456562-6b2d8cussbe1uut9kokb74akhkt7d1d5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.coleenskitchenbakeryapp",
+            "certificate_hash": "5e009f1b89a53be94dfd4ab2343226840fb237a4"
+          }
+        },
+        {
+          "client_id": "188562456562-0cp36com65kpeg75vmvsr3fn5opmk2tb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDX84Ps_Kw_5QmOci37iO07bO-XN7IdVOw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "188562456562-0cp36com65kpeg75vmvsr3fn5opmk2tb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

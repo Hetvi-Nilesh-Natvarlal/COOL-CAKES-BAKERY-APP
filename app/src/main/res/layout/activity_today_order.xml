@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".Admin.TodayOrderActivity">
+
+    <TextView
+        android:id="@+id/nono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Today's Orders"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_below="@+id/nono"
+       android:text="Nothing To Display"
+       android:textSize="30dp"
+       android:textAlignment="center"
+       android:textStyle="italic"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rectoday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nono"/>
+
+</RelativeLayout>

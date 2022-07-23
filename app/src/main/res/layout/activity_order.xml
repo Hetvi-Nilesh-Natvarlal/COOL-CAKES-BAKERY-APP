@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".OrderActivity">
+
+    <FrameLayout
+        android:id="@+id/contain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/shipdetoo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/ortit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shipment Details"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/orname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ortit"
+            android:textColor="@color/black"
+            android:textSize="15dp"></TextView>
+
+        <TextView
+            android:id="@+id/orphone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/orname"
+            android:textColor="@color/black"
+            android:textSize="15dp"></TextView>
+
+
+        <TextView
+            android:id="@+id/orstate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/orphone"
+            android:textColor="@color/black"
+            android:textSize="15dp"></TextView>
+
+        <TextView
+            android:id="@+id/orcity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/orstate"
+            android:textColor="@color/black"
+            android:textSize="15dp"></TextView>
+
+        <TextView
+            android:id="@+id/orlocality"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/orcity"
+            android:textColor="@color/black"
+            android:textSize="15dp"></TextView>
+
+        <TextView
+            android:id="@+id/orpin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/orlocality"
+            android:textColor="@color/black"
+            android:textSize="15dp"></TextView>
+
+        <TextView
+            android:id="@+id/orprice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/orpin"
+            android:textColor="@color/black"
+            android:textSize="15dp"></TextView>
+
+        <TextView
+            android:id="@+id/ordevdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/orprice"
+            android:textColor="@color/black"
+            android:textSize="15dp"></TextView>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/imp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shipdetoo"
+        android:text="Products Details"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"></TextView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imp"
+        android:layout_above="@id/co">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/orecview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imp"
+            ></androidx.recyclerview.widget.RecyclerView>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/co"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Confirm Order"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/cco"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/co"
+        android:text="Cancel Order"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+</RelativeLayout>

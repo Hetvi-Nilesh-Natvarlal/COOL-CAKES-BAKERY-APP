@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/hetvi.LENOVO--520/AndroidStudioProjects/Colleen-s-Kitchen-Bakery-Application-main/app/src/main/res/drawable-v21/ic_menu_camera.xml" value="0.1" />
+        <entry key="..\:/Users/hetvi.LENOVO--520/AndroidStudioProjects/Colleen-s-Kitchen-Bakery-Application-main/app/src/main/res/drawable-v21/ic_menu_gallery.xml" value="0.1" />
+        <entry key="..\:/Users/hetvi.LENOVO--520/AndroidStudioProjects/Colleen-s-Kitchen-Bakery-Application-main/app/src/main/res/drawable-v21/ic_menu_slideshow.xml" value="0.1" />
+        <entry key="..\:/Users/hetvi.LENOVO--520/AndroidStudioProjects/Colleen-s-Kitchen-Bakery-Application-main/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/hetvi.LENOVO--520/AndroidStudioProjects/Colleen-s-Kitchen-Bakery-Application-main/app/src/main/res/drawable/ic_baseline_account.xml" value="0.144" />
+        <entry key="..\:/Users/hetvi.LENOVO--520/AndroidStudioProjects/Colleen-s-Kitchen-Bakery-Application-main/app/src/main/res/drawable/ic_baseline_add.xml" value="0.1" />
+        <entry key="..\:/Users/hetvi.LENOVO--520/AndroidStudioProjects/Colleen-s-Kitchen-Bakery-Application-main/app/src/main/res/drawable/ic_baseline_category.xml" value="0.1" />
+        <entry key="..\:/Users/hetvi.LENOVO--520/AndroidStudioProjects/Colleen-s-Kitchen-Bakery-Application-main/app/src/main/res/drawable/ic_baseline_home.xml" value="0.1" />
+        <entry key="..\:/Users/hetvi.LENOVO--520/AndroidStudioProjects/Colleen-s-Kitchen-Bakery-Application-main/app/src/main/res/drawable/ic_baseline_local_cafe_24.xml" value="0.1" />
+        <entry key="..\:/Users/hetvi.LENOVO--520/AndroidStudioProjects/Colleen-s-Kitchen-Bakery-Application-main/app/src/main/res/drawable/ic_baseline_order.xml" value="0.1" />
+        <entry key="..\:/Users/hetvi.LENOVO--520/AndroidStudioProjects/Colleen-s-Kitchen-Bakery-Application-main/app/src/main/res/drawable/ic_baseline_today_delivery.xml" value="0.1" />
+        <entry key="..\:/Users/hetvi.LENOVO--520/AndroidStudioProjects/Colleen-s-Kitchen-Bakery-Application-main/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1135" />
+        <entry key="..\:/Users/hetvi.LENOVO--520/AndroidStudioProjects/Colleen-s-Kitchen-Bakery-Application-main/app/src/main/res/drawable/ic_sharp_menu_icon.xml" value="0.1135" />
+        <entry key="..\:/Users/hetvi.LENOVO--520/AndroidStudioProjects/Colleen-s-Kitchen-Bakery-Application-main/app/src/main/res/drawable/side_nav_bar.xml" value="0.1" />
+        <entry key="..\:/Users/hetvi.LENOVO--520/AndroidStudioProjects/Colleen-s-Kitchen-Bakery-Application-main/app/src/main/res/layout/account_fragment.xml" value="0.2" />
+        <entry key="..\:/Users/hetvi.LENOVO--520/AndroidStudioProjects/Colleen-s-Kitchen-Bakery-Application-main/app/src/main/res/layout/activity_account_info.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/hetvi.LENOVO--520/AndroidStudioProjects/Colleen-s-Kitchen-Bakery-Application-main/app/src/main/res/layout/activity_account_info2.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/hetvi.LENOVO--520/AndroidStudioProjects/Colleen-s-Kitchen-Bakery-Application-main/app/src/main/res/layout/activity_admin.xml" value="0.2" />
+        <entry key="..\:/Users/hetvi.LENOVO--520/AndroidStudioProjects/Colleen-s-Kitchen-Bakery-Application-main/app/src/main/res/layout/activity_admin_login.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/hetvi.LENOVO--520/AndroidStudioProjects/Colleen-s-Kitchen-Bakery-Application-main/app/src/main/res/layout/activity_appetizer.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/hetvi.LENOVO--520/AndroidStudioProjects/Colleen-s-Kitchen-Bakery-Application-main/app/src/main/res/layout/activity_cart.xml" value="0.25" />
+        <entry key="..\:/Users/hetvi.LENOVO--520/AndroidStudioProjects/Colleen-s-Kitchen-Bakery-Application-main/app/src/main/res/layout/activity_category.xml" value="0.25" />
+        <entry key="..\:/Users/hetvi.LENOVO--520/AndroidStudioProjects/Colleen-s-Kitchen-Bakery-Application-main/app/src/main/res/layout/activity_confirm_order.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/hetvi.LENOVO--520/AndroidStudioProjects/Colleen-s-Kitchen-Bakery-Application-main/app/src/main/res/layout/activity_cup__cake.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/hetvi.LENOVO--520/AndroidStudioProjects/Colleen-s-Kitchen-Bakery-Application-main/app/src/main/res/layout/activity_history.xml" value="0.25" />
+        <entry key="..\:/Users/hetvi.LENOVO--520/AndroidStudioProjects/Colleen-s-Kitchen-Bakery-Application-main/app/src/main/res/layout/activity_login__new_.xml" value="0.264" />
+        <entry key="..\:/Users/hetvi.LENOVO--520/AndroidStudioProjects/Colleen-s-Kitchen-Bakery-Application-main/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/hetvi.LENOVO--520/AndroidStudioProjects/Colleen-s-Kitchen-Bakery-Application-main/app/src/main/res/layout/activity_oder.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/hetvi.LENOVO--520/AndroidStudioProjects/Colleen-s-Kitchen-Bakery-Application-main/app/src/main/res/layout/activity_order.xml" value="0.2" />
+        <entry key="..\:/Users/hetvi.LENOVO--520/AndroidStudioProjects/Colleen-s-Kitchen-Bakery-Application-main/app/src/main/res/layout/activity_pizza.xml" value="0.176" />
+        <entry key="..\:/Users/hetvi.LENOVO--520/AndroidStudioProjects/Colleen-s-Kitchen-Bakery-Application-main/app/src/main/res/layout/activity_product__details_.xml" value="0.25" />
+        <entry key="..\:/Users/hetvi.LENOVO--520/AndroidStudioProjects/Colleen-s-Kitchen-Bakery-Application-main/app/src/main/res/layout/activity_register.xml" value="0.24728260869565216" />
+        <entry key="..\:/Users/hetvi.LENOVO--520/AndroidStudioProjects/Colleen-s-Kitchen-Bakery-Application-main/app/src/main/res/layout/activity_sandwiches.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/hetvi.LENOVO--520/AndroidStudioProjects/Colleen-s-Kitchen-Bakery-Application-main/app/src/main/res/layout/activity_shipment_info.xml" value="0.2" />
+        <entry key="..\:/Users/hetvi.LENOVO--520/AndroidStudioProjects/Colleen-s-Kitchen-Bakery-Application-main/app/src/main/res/layout/activity_show_history.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/hetvi.LENOVO--520/AndroidStudioProjects/Colleen-s-Kitchen-Bakery-Application-main/app/src/main/res/layout/activity_show_order.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/hetvi.LENOVO--520/AndroidStudioProjects/Colleen-s-Kitchen-Bakery-Application-main/app/src/main/res/layout/activity_show_product.xml" value="0.25" />
+        <entry key="..\:/Users/hetvi.LENOVO--520/AndroidStudioProjects/Colleen-s-Kitchen-Bakery-Application-main/app/src/main/res/layout/activity_today_delivery.xml" value="0.16485507246376813" />
+        <entry key="..\:/Users/hetvi.LENOVO--520/AndroidStudioProjects/Colleen-s-Kitchen-Bakery-Application-main/app/src/main/res/layout/activity_today_order.xml" value="0.16485507246376813" />
+        <entry key="..\:/Users/hetvi.LENOVO--520/AndroidStudioProjects/Colleen-s-Kitchen-Bakery-Application-main/app/src/main/res/layout/activity_wedding__cake.xml" value="0.16485507246376813" />
+        <entry key="..\:/Users/hetvi.LENOVO--520/AndroidStudioProjects/Colleen-s-Kitchen-Bakery-Application-main/app/src/main/res/layout/admin_showorder.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/hetvi.LENOVO--520/AndroidStudioProjects/Colleen-s-Kitchen-Bakery-Application-main/app/src/main/res/layout/cart_items.xml" value="0.16485507246376813" />
+        <entry key="..\:/Users/hetvi.LENOVO--520/AndroidStudioProjects/Colleen-s-Kitchen-Bakery-Application-main/app/src/main/res/layout/fragment_colleens.xml" value="0.176" />
+        <entry key="..\:/Users/hetvi.LENOVO--520/AndroidStudioProjects/Colleen-s-Kitchen-Bakery-Application-main/app/src/main/res/layout/fragment_date_picker.xml" value="0.16485507246376813" />
+        <entry key="..\:/Users/hetvi.LENOVO--520/AndroidStudioProjects/Colleen-s-Kitchen-Bakery-Application-main/app/src/main/res/layout/fragment_order.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/hetvi.LENOVO--520/AndroidStudioProjects/Colleen-s-Kitchen-Bakery-Application-main/app/src/main/res/layout/fragment_order_history.xml" value="0.16485507246376813" />
+        <entry key="..\:/Users/hetvi.LENOVO--520/AndroidStudioProjects/Colleen-s-Kitchen-Bakery-Application-main/app/src/main/res/layout/order_items.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/hetvi.LENOVO--520/AndroidStudioProjects/Colleen-s-Kitchen-Bakery-Application-main/app/src/main/res/layout/showproduct.xml" value="0.264" />
+        <entry key="..\:/Users/hetvi.LENOVO--520/AndroidStudioProjects/Colleen-s-Kitchen-Bakery-Application-main/app/src/main/res/layout/single_row.xml" value="0.16485507246376813" />
+        <entry key="..\:/Users/hetvi.LENOVO--520/AndroidStudioProjects/Colleen-s-Kitchen-Bakery-Application-main/app/src/main/res/menu/a_bottom_navigation.xml" value="0.25" />
+        <entry key="..\:/Users/hetvi.LENOVO--520/AndroidStudioProjects/Colleen-s-Kitchen-Bakery-Application-main/app/src/main/res/menu/bottom_navigation.xml" value="0.25" />
+        <entry key="..\:/Users/hetvi.LENOVO--520/AndroidStudioProjects/Colleen-s-Kitchen-Bakery-Application-main/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.101" />
+        <entry key="..\:/Users/hetvi.LENOVO--520/AndroidStudioProjects/Colleen-s-Kitchen-Bakery-Application-main/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".Admin.ShowOrderActivity">
+
+    <TextView
+        android:textAlignment="textEnd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click Here For Past Orders History(Delivered)"
+        android:id="@+id/here"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Nothing To Display"
+        android:layout_below="@id/here"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:textSize="30dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@+id/here"
+        android:id="@+id/recshow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

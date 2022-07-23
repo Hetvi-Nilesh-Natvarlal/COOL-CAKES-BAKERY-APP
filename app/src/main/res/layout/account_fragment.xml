@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#EDCFC5"
+    android:padding="20dp">
+
+    <RelativeLayout
+        android:layout_width="391dp"
+        android:layout_height="625dp"
+        android:background="#EDCFC5"
+        android:padding="6dp">
+
+        <ImageView
+            android:id="@+id/infoinfo"
+            android:layout_width="38dp"
+            android:layout_height="44dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_sharp_menu_icon" />
+
+
+        <RelativeLayout
+            android:id="@+id/rela1"
+            android:layout_width="353dp"
+            android:layout_height="201dp"
+            android:layout_below="@+id/infoinfo"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:padding="8dp">
+
+
+            <TextView
+                android:id="@+id/texttit"
+                android:layout_width="261dp"
+                android:layout_height="37dp"
+                android:text="My Account"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/accountname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/texttit"
+                android:layout_marginTop="12dp"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="15dp"></TextView>
+
+
+            <TextView
+                android:id="@+id/accountemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/accountname"
+                android:layout_marginTop="23dp"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="15dp"></TextView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="345dp"
+            android:layout_height="305dp"
+            android:layout_below="@+id/rela1"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/textshn"
+                android:layout_width="335dp"
+                android:layout_height="55dp"
+                android:text="Shipment Details"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"></TextView>
+
+
+            <TextView
+                android:id="@+id/shipname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textshn"
+                android:layout_marginTop="26dp"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="15dp"></TextView>
+
+
+            <TextView
+                android:id="@+id/shipstate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/shipname"
+                android:layout_marginTop="14dp"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="15dp"></TextView>
+
+            <TextView
+                android:id="@+id/shipcity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/shipstate"
+                android:layout_marginTop="16dp"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="15dp"></TextView>
+
+            <TextView
+                android:id="@+id/shiplocality"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/shipcity"
+                android:layout_marginTop="18dp"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="15dp"></TextView>
+
+            <TextView
+                android:id="@+id/shippin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/shiplocality"
+                android:layout_marginTop="14dp"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="15dp"></TextView>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
