@@ -11,8 +11,8 @@ homes.
 
 ## This project is created using the following :
 
-**XML**       ---   **Frontend**
+**Frontend** ---> **XML** 
 
-**JAVA**      ---   **Backend** 
+**Backend**  ---> **JAVA** 
 
-**FIREBASE**  ---   **Database** 
+**Database** ---> **FIREBASE** 
